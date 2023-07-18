@@ -252,7 +252,7 @@ header.sticky {
 }
 
 .services-content {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
     gap: 2.5rem;
@@ -262,6 +262,7 @@ header.sticky {
 .box {
     background: var(--bg-color);
     padding: 35px 45px;
+    margin: 35px 0;
     border-radius: 8px;
     transition: all .45s ease;
 }
@@ -313,7 +314,7 @@ header.sticky {
 }
 
 .portfolio-content {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: flex-start;
     gap: 2.5rem;
@@ -344,7 +345,7 @@ header.sticky {
 
 .contact {
     background: var(--second-bg-color);
-    display: grid;
+    display: block;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
@@ -366,7 +367,7 @@ header.sticky {
     color: var(--second-color);
     font-size: var(--p-font);
     line-height: 1.8;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .list {
