@@ -286,6 +286,10 @@ header.sticky {
     margin-bottom: 25px;
 }
 
+.box span {
+    color: var(--text-color);
+}
+
 .read {
     display: inline-block;
     padding: 8px 18px;
